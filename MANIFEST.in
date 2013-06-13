@@ -1,0 +1,6 @@
+include README.rst
+include LICENSE
+include MANIFEST.in
+include jsbasics/feature.json
+recursive-include jsbasics/static *
+recursive-include jsbasics/templates *

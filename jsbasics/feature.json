@@ -1,0 +1,9 @@
+{
+    "name": "jsbasics",
+    "version": ":git-ref:",
+    "pl": "django-productline",
+    "model_fragment": {
+        "optional": true,
+        "subfeature_of": "django_productline"
+    }
+}
