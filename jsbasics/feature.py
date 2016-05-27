@@ -9,9 +9,3 @@ def select(composer):
     from . import assets
     import statics.assets
     composer.compose(assets, statics.assets)
-
-
-    # compose static files
-    from . import assets
-    import statics.assets
-    composer.compose(assets, statics.assets)
