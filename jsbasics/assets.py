@@ -1,7 +1,7 @@
 
 
 def refine_STATICS(original):
-    original['PUBLIC']['js']['files'] += [
+    original['GENERAL']['js']['files'] += [
         'jquery/js/jquery-1.12.4.min.js',
         'jquery/js/jquery.migrate.1.4.1.min.js',
         'jquery/js/jquery-ui.1.11.4.min.js',
