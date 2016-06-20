@@ -8,5 +8,6 @@ def refine_STATICS(original):
         'jquery/js/jquery.mobile.custom.min.js',
         'jquery/js/django-csrf.js',
         'underscore-min.js',
+        'js.cookie.min.js',
     ]
     return original
