@@ -9,5 +9,14 @@ def refine_STATICS(original):
         'jquery/js/django-csrf.js',
         'underscore-min.js',
         'js.cookie.min.js',
+
+        # select2
+        'select2/4.0.3/select2.min.js',
+        'select2/4.0.3/de.js',
     ]
+
+    original['GENERAL']['css']['files'] += [
+        'select2/4.0.3/select2.min.css',
+    ]
+
     return original
