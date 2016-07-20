@@ -9,6 +9,8 @@ def refine_STATICS(original):
         'jquery/js/django-csrf.js',
         'underscore-min.js',
         'js.cookie.min.js',
+        'jquery.mjs.nestedSortable.js',
+
 
         # select2
         'select2/4.0.3/select2.min.js',
