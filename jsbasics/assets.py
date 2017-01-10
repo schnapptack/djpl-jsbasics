@@ -2,9 +2,9 @@
 
 def refine_STATICS(original):
     original['GENERAL']['js']['files'] += [
-        'jquery/js/jquery-1.12.4.min.js',
-        'jquery/js/jquery.migrate.1.4.1.min.js',
-        'jquery/js/jquery-ui.1.11.4.min.js',
+        'jquery/js/jquery-3.1.1.min.js',
+        'jquery/js/jquery-migrate-3.0.1.min.js',
+        'jquery/js/jquery-ui.1.12.1.min.js',
         'jquery/js/jquery.mobile.custom.min.js',
         'jquery/js/django-csrf.js',
         'underscore-min.js',
